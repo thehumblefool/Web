@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>feedback_form</title>
+<style>
+label.field{
+text-align:left;width:200px;float:left;font-size:20;}
+input.test300{
+width:200px;float:left;text-align:center;}
+fieldset p{
+clear:both;padding:25px;}
+input.radio{
+float:left;text-align:center;width:40px;}
+input.radioo{
+float:left;text-align:center;width:160px;}
+.box{
+display:block;border-radius:5px;margin-top:20px;margin-bottom:15px;margin-left:100px;margin-right:100px;
+box-shadow:1px 1px 10px 2px;background-color:white;
+}
+</style>
+</head>
+<body style="padding-left:50px;padding-right:40;background-color:3F2860;">
+<form action="image_for_project.html" class="box">
+<br>
+<fieldset>
+<legend>FEEDBACK FORM</legend>
+<p><label class="field" for="Name"><b>Name:</b></label><input type=text name=Name value="" class="test300"></input></p>
+<p><label class="field" for="Mobile"><b>Mobile No.:</b></label><input type=text name=country_code value="+91" class="radio"></input><input type=text name=Mobile value="" class="radioo"></input></p>
+<p><label class="field" for="Email"><b>Email Id:</b></label><input type=text name=email value="" class="test300"></input></p>
+<p><label class="field" for="day"><b>Day Visited:</b></label><input type=text name=day value="" style="width:50px;text-align:center;" placeholder="DD"></input> - <input type=text name=month value="" style="width:50px;text-align:center;" placeholder="MM"></input> - <input type=text name=year value="" style="width:50px;text-align:center;" placeholder="YY"></input>
+<abbr title="Day/Month/Year">?</abbr></p>
+<p><label class="field" for="food_quality"><b>Food Quality:</b></label>
+<input type=radio name=food_quality value="Excellent">Excellent</input>
+<input type=radio name=food_quality value="Good">Good</input>
+<input type=radio name=food_quality value="Average">Average</input>
+<input type=radio name=food_quality value="Dissatisfied">Dissatisfied</input><br><br>
+<p><label class="field" for="service_quality"><b>Overall Service Quality:</b></label>
+<input type=radio name=service_quality value="Excellent">Excellent</input>
+<input type=radio name=service_quality value="Good">Good</input>
+<input type=radio name=service_quality value="Average">Average</input>
+<input type=radio name=service_quality value="Dissatisfied">Dissatisfied</input><br><br>
+<p><label class="field" for="cleanliness"><b>Cleanliness:</b></label>
+<input type=radio name=cleanliness value="Excellent">Excellent</input>
+<input type=radio name=cleanliness value="Good">Good</input>
+<input type=radio name=cleanliness value="Average">Average</input>
+<input type=radio name=cleanliness value="Dissatisfied">Dissatisfied</input><br><br>
+<p><label class="field" for="order_accuracy"><b>Order Accuracy:</b></label>
+<input type=radio name=order_accuracy value="Excellent">Excellent</input>
+<input type=radio name=order_accuracy value="Good">Good</input>
+<input type=radio name=order_accuracy value="Average">Average</input>
+<input type=radio name=order_accuracy value="Dissatisfied">Dissatisfied</input><br><br>
+<p><label class="field" for="speed"><b>Speed of Service:</b></label>
+<input type=radio name=speed value="Excellent">Excellent</input>
+<input type=radio name=speed value="Good">Good</input>
+<input type=radio name=speed value="Average">Average</input>
+<input type=radio name=speed value="Dissatisfied">Dissatisfied</input><br><br>
+<p><label class="field" for="exp"><b>Overall Experience:</b></label>
+<input type=radio name=exp value="Excellent">Excellent</input>
+<input type=radio name=exp value="Good">Good</input>
+<input type=radio name=exp value="Average">Average</input>
+<input type=radio name=exp value="Dissatisfied">Dissatisfied</input><br><br>
+<br><br><br><b>Any comments, questions or suggestion?</b><br>
+<textarea name=text placeholder="ENTER YOUR FEEDBACK" rows=10 cols=100></textarea><br>
+<br><input type=submit value="Submit" ></input>
+</fieldset><br>
+</form>
+</body>
+</html>
